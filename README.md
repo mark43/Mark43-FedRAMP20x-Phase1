@@ -52,7 +52,7 @@ Together, these systems form the foundation of the Mark43 Public Safety Platform
 - **FedRAMP Package ID**: FR2235965777
 - **Fully Operational Since**: March 1, 2023
 
-3. SLG (State and Local Government) Environment
+2. SLG (State and Local Government) Environment
 - Purpose: Tailored to meet the operational needs of state and local law enforcement agencies.
 - Compliance Level: Aligned with FedRAMP Low / SOC 2 controls, undergoing validation under FedRAMP 20x.
 - Cloud Infrastructure: Typically hosted in AWS Commercial Regions.
@@ -155,11 +155,9 @@ Mark43 publicly hosts these packages on GitHub:
 
   1. **An already-authorized FedRAMP High environment** deployed in AWS GovCloud. GitHub Repository: [https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1](https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1)
 
-  1. **An already-authorized FedRAMP High environment** deployed in AWS GovCloud. GitHub Repository: [https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1](https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1)
-
   2. **A separate State, Local, and Government (SLG)-focused environment** that has not yet been FedRAMP authorized but aligns to the High baseline and is supported by existing SOC 2 evidence and inherited controls. GitHub Repository: [https://github.com/mark43/Mark43-FedRAMP20x-Phase1](https://github.com/mark43/Mark43-FedRAMP20x-Phase1)
 
-- Access does **not** require FedRAMP to create an account
+- Access does **not** require FedRAMP to create an account.
 
 - All supporting documentation, evidence summaries, and JSON files are structured for easy navigation and consumption
 
