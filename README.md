@@ -111,7 +111,6 @@ We generate `controls-validation.json`, a machine-readable file containing:
   }
 ]
 ```
-
 ### **Step Five: 3PAO Review (KRATOS)**
 
 KRATOS, our FedRAMP-accredited 3PAO, will:
@@ -156,12 +155,13 @@ Mark43 publicly hosts these packages on GitHub:
 
   1. **An already-authorized FedRAMP High environment** deployed in AWS GovCloud. GitHub Repository: [https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1](https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1)
 
+  1. **An already-authorized FedRAMP High environment** deployed in AWS GovCloud. GitHub Repository: [https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1](https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1)
+
   2. **A separate State, Local, and Government (SLG)-focused environment** that has not yet been FedRAMP authorized but aligns to the High baseline and is supported by existing SOC 2 evidence and inherited controls. GitHub Repository: [https://github.com/mark43/Mark43-FedRAMP20x-Phase1](https://github.com/mark43/Mark43-FedRAMP20x-Phase1)
 
 - Access does **not** require FedRAMP to create an account
 
 - All supporting documentation, evidence summaries, and JSON files are structured for easy navigation and consumption
-
 
 ## Public References
 
@@ -169,7 +169,6 @@ Mark43 publicly hosts these packages on GitHub:
 - [FedRAMP Community Discussions](https://github.com/FedRAMP/community/discussions/categories/20xp1-pilot-drafts)
 - [FedRAMP OSCAL](https://pages.nist.gov/OSCAL/)
 - [Mark43 Public Safety Platform](https://www.mark43.com/platform/)
-
 
 ## About Mark43
 
