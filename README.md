@@ -13,7 +13,7 @@ Welcome to Mark43's repository for our participation in the FedRAMP 20x Phase On
 > **Important:** Mark43 is submitting **two separate packages** to the 20x pilot:
 >
 > 1. **An already-authorized FedRAMP High environment** deployed in AWS GovCloud. GitHub Repository: [https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1](https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1)
-> 2. **A separate SLG-focused environment** that has not yet been FedRAMP authorized but aligns to the High baseline and is supported by existing SOC 2 evidence and inherited controls. GitHub Repository: [https://github.com/mark43/Mark43-FedRAMP20x-Phase1](https://github.com/mark43/Mark43-FedRAMP20x-Phase1)
+> 2. **A separate SLG-focused environment** that has not yet been FedRAMP authorized and is supported by existing SOC 2 evidence and inherited controls. GitHub Repository: [https://github.com/mark43/Mark43-FedRAMP20x-Phase1](https://github.com/mark43/Mark43-FedRAMP20x-Phase1)
 
 We are leveraging the [FedRAMP OSCAL schema](https://pages.nist.gov/OSCAL/) for machine-readable content and working with **KRATOS** as our Third Party Assessment Organization (3PAO) to validate and attest to our implementation of security objectives.
 
