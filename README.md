@@ -1,3 +1,9 @@
+<p align="center">
+   <a href="https://mark43.com">
+     <img src="https://mark43.com/wp-content/uploads/Mark43-Logo-Alt.png" alt="Mark43 Logo" width="100%">
+   </a>
+</p>
+
 # Mark43 FedRAMP 20x Phase One Pilot Submission
 
 Welcome to Mark43's repository for our participation in the FedRAMP 20x Phase One pilot. This repository demonstrates our cloud service's readiness for authorization using a modern, automated, and machine-readable approach. It aligns with the 20x initiative to reduce redundant documentation and streamline validation through Key Security Indicators (KSIs), reusable evidence, and automation.
@@ -11,7 +17,45 @@ Welcome to Mark43's repository for our participation in the FedRAMP 20x Phase On
 
 We are leveraging the [FedRAMP OSCAL schema](https://pages.nist.gov/OSCAL/) for machine-readable content and working with **KRATOS** as our Third Party Assessment Organization (3PAO) to validate and attest to our implementation of security objectives.
 
----
+## :blue_book: System Overview
+
+The Mark43 Public Safety Platform is a SaaS solution that enables law enforcement and public safety organizations to collect, store, manage, and report on mission-critical data. It is composed of two core applications:
+
+### :rotating_light: Computer-Aided Dispatch (CAD)
+
+- Web-based emergency dispatch tool for 911 call takers and responding units
+- Continuously syncs with the RMS application for complete situational visibility
+- Optional Apps/modules for mobile
+
+### :memo: Records Management System (RMS)
+
+- Centralized application for managing crime and investigative data
+- OnScene Mobile applicaton
+- Analytics/Insights Modules
+- Features include:
+  - Report writing
+  - Case management
+  - Property and evidence tracking
+  - Crime analytics and statistics reporting
+  - and more!
+- Optimized for mobile and remote use across laptops, tablets, and phones
+
+Together, these systems form the foundation of the Mark43 Public Safety Platform and are operated within a non-FedRAMP current authorized environment to meet the needs of federal, state, and local law enforcement.
+
+## :shield: Security and Compliance
+
+### :cloud: Mark43 operates two distinct cloud environments to serve the specific needs of its public safety customers:
+
+1. FedRAMP High Environment
+- Purpose: Supports federal law enforcement and national security customers.
+- Compliance Level: Fully FedRAMP High authorized.
+- **FedRAMP Package ID**: FR2235965777
+- **Fully Operational Since**: March 1, 2023
+
+3. SLG (State and Local Government) Environment
+- Purpose: Tailored to meet the operational needs of state and local law enforcement agencies.
+- Compliance Level: Aligned with FedRAMP Low / SOC 2 controls, undergoing validation under FedRAMP 20x.
+- Cloud Infrastructure: Typically hosted in AWS Commercial Regions.
 
 ## Overview: 9-Step Approach to the 20x Pilot
 
@@ -67,7 +111,6 @@ We generate `controls-validation.json`, a machine-readable file containing:
   }
 ]
 ```
-
 ### **Step Five: 3PAO Review (KRATOS)**
 
 KRATOS, our FedRAMP-accredited 3PAO, will:
@@ -110,19 +153,15 @@ We will provide a full rationale for our pilot submission approach:
 
 Mark43 publicly hosts these packages on GitHub:
 
--
-
   1. **An already-authorized FedRAMP High environment** deployed in AWS GovCloud. GitHub Repository: [https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1](https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1)
 
--
+  1. **An already-authorized FedRAMP High environment** deployed in AWS GovCloud. GitHub Repository: [https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1](https://github.com/mark43/Mark43-High-FedRAMP20x-Phase1)
 
   2. **A separate State, Local, and Government (SLG)-focused environment** that has not yet been FedRAMP authorized but aligns to the High baseline and is supported by existing SOC 2 evidence and inherited controls. GitHub Repository: [https://github.com/mark43/Mark43-FedRAMP20x-Phase1](https://github.com/mark43/Mark43-FedRAMP20x-Phase1)
 
 - Access does **not** require FedRAMP to create an account
 
 - All supporting documentation, evidence summaries, and JSON files are structured for easy navigation and consumption
-
----
 
 ## Public References
 
@@ -131,15 +170,11 @@ Mark43 publicly hosts these packages on GitHub:
 - [FedRAMP OSCAL](https://pages.nist.gov/OSCAL/)
 - [Mark43 Public Safety Platform](https://www.mark43.com/platform/)
 
----
-
 ## About Mark43
 
 Mark43 provides a secure, cloud-native, multi-tenant SaaS platform for public safety agencies. We are committed to FedRAMP compliance and innovative approaches to government cloud security validation.
 
 [www.mark43.com](https://www.mark43.com)
-
----
 
 ## :busts_in_silhouette: Contact
 
