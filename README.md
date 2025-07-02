@@ -182,7 +182,7 @@ Mark43 provides a secure, cloud-native, multi-tenant SaaS platform for public sa
   :email: [kelsey.mcmichael@mark43.com](mailto:kelsey.mcmichael@mark43.com)
 
 - **Security Team**:  
-  :email: [security@mark43.com](mailto:security@mark43.com)
+  :email: [DEPT-InformationSecurity@mark43.com](mailto:DEPT-InformationSecurity@mark43.com)
 
 *This repository and all contents are provided for the purposes of FedRAMP 20x pilot participation. No Controlled Unclassified Information (CUI) or sensitive operational data is included in this public repository.*
 
